@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "nombre": "Manzanas Fuji",
+    "categoria": "Frutas Frescas",
+    "precio": 1200,
+    "stock": 150,
+    "unidad": "kilo",
+    "descripcion": "Manzanas Fuji crujientes y dulces, cultivadas en el Valle del Maule. Ricas en fibra y antioxidantes.",
+    "imagen": "/assets/manzanas.jpg",
+    "enOferta": true,
+    "precioOferta": 990
+  },
+  {
+    "id": 2,
+    "nombre": "Naranjas Valencia",
+    "categoria": "Frutas Frescas",
+    "precio": 1000,
+    "stock": 200,
+    "unidad": "kilo",
+    "descripcion": "Jugosas y ricas en vitamina C, ideales para zumos matutinos frescos y refrescantes.",
+    "imagen": "/assets/naranjas.png",
+    "enOferta": false,
+    "precioOferta": null
+  },
+  {
+    "id": 3,
+    "nombre": "Plátanos Cavendish",
+    "categoria": "Frutas Frescas",
+    "precio": 800,
+    "stock": 250,
+    "unidad": "kilo",
+    "descripcion": "Plátanos maduros y dulces, perfectos para el desayuno o snack energético de deportistas.",
+    "imagen": "/assets/platanos.png",
+    "enOferta": false,
+    "precioOferta": null
+  },
+  {
+    "id": 4,
+    "nombre": "Zanahorias Orgánicas",
+    "categoria": "Verduras Orgánicas",
+    "precio": 900,
+    "stock": 180,
+    "unidad": "kilo",
+    "descripcion": "Cultivadas sin pesticidas, dulces y crujientes. Aportan una alta dosis de betacaroteno.",
+    "imagen": "/assets/zanahorias.jpg",
+    "enOferta": true,
+    "precioOferta": 750
+  },
+  {
+    "id": 5,
+    "nombre": "Espinacas Frescas",
+    "categoria": "Verduras Orgánicas",
+    "precio": 700,
+    "stock": 90,
+    "unidad": "bolsa 500g",
+    "descripcion": "Hojas verdes tiernas, ideales para ensaladas crudas o salteados ricos en hierro.",
+    "imagen": "/assets/espinacas.jpg",
+    "enOferta": false,
+    "precioOferta": null
+  },
+  {
+    "id": 6,
+    "nombre": "Pimientos Tricolores",
+    "categoria": "Verduras Orgánicas",
+    "precio": 1500,
+    "stock": 80,
+    "unidad": "pack 3u",
+    "descripcion": "Rojo, amarillo y verde. Sabor fresco y crocante para dar color a tus preparaciones.",
+    "imagen": "/assets/pimientos.jpg",
+    "enOferta": false,
+    "precioOferta": null
+  },
+  {
+    "id": 7,
+    "nombre": "Miel Orgánica",
+    "categoria": "Productos Orgánicos",
+    "precio": 4500,
+    "stock": 50,
+    "unidad": "frasco 500g",
+    "descripcion": "Miel pura de abeja de bosque nativo, sin aditivos ni preservantes. Dulzura natural.",
+    "imagen": "/assets/miel.jpg",
+    "enOferta": true,
+    "precioOferta": 3990
+  },
+  {
+    "id": 8,
+    "nombre": "Quinua Orgánica",
+    "categoria": "Productos Orgánicos",
+    "precio": 3200,
+    "stock": 70,
+    "unidad": "bolsa 1kg",
+    "descripcion": "Superalimento andino libre de gluten, rico en proteínas, fibra y minerales esenciales.",
+    "imagen": "/assets/quinua.png",
+    "enOferta": false,
+    "precioOferta": null
+  },
+  {
+    "id": 9,
+    "nombre": "Leche Entera",
+    "categoria": "Productos Lácteos",
+    "precio": 1100,
+    "stock": 120,
+    "unidad": "litro",
+    "descripcion": "Leche fresca de pastoreo natural del sur de Chile, pasteurizada y con sabor auténtico.",
+    "imagen": "/assets/leche.jpg",
+    "enOferta": false,
+    "precioOferta": null
+  }
+]
