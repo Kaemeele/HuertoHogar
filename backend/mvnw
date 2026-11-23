@@ -1,0 +1,20 @@
+#!/usr/bin/env sh
+# ------------------------------------------------
+# Maven Wrapper - based on https://github.com/takari/maven-wrapper
+# ------------------------------------------------
+# This script will download the Maven Wrapper JAR if not present, then execute Maven.
+# It expects a Java runtime on the system (JAVA_HOME or java on PATH).
+
+# Resolve the location of the wrapper JAR
+WRAPPER_JAR="$(cd "$(dirname "$0")/.mvn/wrapper" && pwd)/maven-wrapper.jar"
+
+# Download if missing
+if [ ! -f "$WRAPPER_JAR" ]; then
+  echo "Downloading Maven Wrapper..."
+  mkdir -p "$(dirname "$WRAPPER_JAR")"
+  # Default Maven distribution (3.9.9 as example). Adjust if needed.
+  curl -sSfL "https://repo.maven.apache.org/maven2/.mvn/wrapper/maven-wrapper/3.9.9/maven-wrapper-3.9.9.jar" -o "$WRAPPER_JAR"
+fi
+
+# Run Maven via the wrapper JAR
+exec java -jar "$WRAPPER_JAR" "$@"

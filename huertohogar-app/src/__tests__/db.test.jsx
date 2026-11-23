@@ -1,17 +1,8 @@
 // src/__tests__/db.test.jsx
 // Unit tests for the mock data layer (db.js)
 import { vi } from "vitest";
-import {
-  obtenerProductos,
-  crearProducto,
-  actualizarProducto,
-  eliminarProducto,
-  obtenerOrdenes,
-  crearOrden,
-  obtenerCarrito,
-  guardarCarrito,
-  limpiarCarrito,
-} from "../data/db.js";
+import { resetDB, obtenerProductos, crearProducto, actualizarProducto, eliminarProducto, obtenerOrdenes, crearOrden, obtenerCarrito, guardarCarrito, limpiarCarrito } from "../data/db.js";
+
 
 // Simple in‑memory mock for localStorage
 const mockStorage = (() => {
@@ -36,6 +27,7 @@ const mockStorage = (() => {
 })();
 
 beforeEach(() => {
+  resetDB();
   mockStorage.clear();
   // replace the global localStorage with our mock
   vi.stubGlobal("localStorage", mockStorage);
